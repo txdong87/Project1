@@ -5,7 +5,6 @@ export default function SeriesPage(props){
     return (
         <div className="home-page-frame">
         <div>
-            <HomeCarousel {...props} />
             <ListSeries />
         </div>
         </div>
